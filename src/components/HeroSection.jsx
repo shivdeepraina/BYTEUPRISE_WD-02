@@ -3,7 +3,7 @@ import video2 from "../assets/video2.mp4";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    <div className="flex flex-col items-center mt-6 lg:mt-15">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           Web
@@ -25,9 +25,6 @@ const HeroSection = () => {
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
           Start for free
-        </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
         </a>
       </div>
       <div className="flex mt-10 justify-center">
